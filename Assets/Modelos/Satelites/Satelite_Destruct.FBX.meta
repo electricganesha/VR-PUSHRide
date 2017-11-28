@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 6260ad457251f884586cd7fc25ecc5d7
+timeCreated: 1485360814
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box008_Part_1
+    100002: Box008_Part_10
+    100004: Box008_Part_11
+    100006: Box008_Part_12
+    100008: Box008_Part_13
+    100010: Box008_Part_14
+    100012: Box008_Part_15
+    100014: Box008_Part_16
+    100016: Box008_Part_17
+    100018: Box008_Part_18
+    100020: Box008_Part_19
+    100022: Box008_Part_2
+    100024: Box008_Part_20
+    100026: Box008_Part_21
+    100028: Box008_Part_22
+    100030: Box008_Part_23
+    100032: Box008_Part_24
+    100034: Box008_Part_25
+    100036: Box008_Part_26
+    100038: Box008_Part_27
+    100040: Box008_Part_28
+    100042: Box008_Part_29
+    100044: Box008_Part_3
+    100046: Box008_Part_30
+    100048: Box008_Part_31
+    100050: Box008_Part_32
+    100052: Box008_Part_33
+    100054: Box008_Part_34
+    100056: Box008_Part_35
+    100058: Box008_Part_36
+    100060: Box008_Part_37
+    100062: Box008_Part_38
+    100064: Box008_Part_39
+    100066: Box008_Part_4
+    100068: Box008_Part_40
+    100070: Box008_Part_5
+    100072: Box008_Part_6
+    100074: Box008_Part_7
+    100076: Box008_Part_8
+    100078: Box008_Part_9
+    100080: //RootNode
+    400000: Box008_Part_1
+    400002: Box008_Part_10
+    400004: Box008_Part_11
+    400006: Box008_Part_12
+    400008: Box008_Part_13
+    400010: Box008_Part_14
+    400012: Box008_Part_15
+    400014: Box008_Part_16
+    400016: Box008_Part_17
+    400018: Box008_Part_18
+    400020: Box008_Part_19
+    400022: Box008_Part_2
+    400024: Box008_Part_20
+    400026: Box008_Part_21
+    400028: Box008_Part_22
+    400030: Box008_Part_23
+    400032: Box008_Part_24
+    400034: Box008_Part_25
+    400036: Box008_Part_26
+    400038: Box008_Part_27
+    400040: Box008_Part_28
+    400042: Box008_Part_29
+    400044: Box008_Part_3
+    400046: Box008_Part_30
+    400048: Box008_Part_31
+    400050: Box008_Part_32
+    400052: Box008_Part_33
+    400054: Box008_Part_34
+    400056: Box008_Part_35
+    400058: Box008_Part_36
+    400060: Box008_Part_37
+    400062: Box008_Part_38
+    400064: Box008_Part_39
+    400066: Box008_Part_4
+    400068: Box008_Part_40
+    400070: Box008_Part_5
+    400072: Box008_Part_6
+    400074: Box008_Part_7
+    400076: Box008_Part_8
+    400078: Box008_Part_9
+    400080: //RootNode
+    2300000: Box008_Part_1
+    2300002: Box008_Part_10
+    2300004: Box008_Part_11
+    2300006: Box008_Part_12
+    2300008: Box008_Part_13
+    2300010: Box008_Part_14
+    2300012: Box008_Part_15
+    2300014: Box008_Part_16
+    2300016: Box008_Part_17
+    2300018: Box008_Part_18
+    2300020: Box008_Part_19
+    2300022: Box008_Part_2
+    2300024: Box008_Part_20
+    2300026: Box008_Part_21
+    2300028: Box008_Part_22
+    2300030: Box008_Part_23
+    2300032: Box008_Part_24
+    2300034: Box008_Part_25
+    2300036: Box008_Part_26
+    2300038: Box008_Part_27
+    2300040: Box008_Part_28
+    2300042: Box008_Part_29
+    2300044: Box008_Part_3
+    2300046: Box008_Part_30
+    2300048: Box008_Part_31
+    2300050: Box008_Part_32
+    2300052: Box008_Part_33
+    2300054: Box008_Part_34
+    2300056: Box008_Part_35
+    2300058: Box008_Part_36
+    2300060: Box008_Part_37
+    2300062: Box008_Part_38
+    2300064: Box008_Part_39
+    2300066: Box008_Part_4
+    2300068: Box008_Part_40
+    2300070: Box008_Part_5
+    2300072: Box008_Part_6
+    2300074: Box008_Part_7
+    2300076: Box008_Part_8
+    2300078: Box008_Part_9
+    3300000: Box008_Part_1
+    3300002: Box008_Part_10
+    3300004: Box008_Part_11
+    3300006: Box008_Part_12
+    3300008: Box008_Part_13
+    3300010: Box008_Part_14
+    3300012: Box008_Part_15
+    3300014: Box008_Part_16
+    3300016: Box008_Part_17
+    3300018: Box008_Part_18
+    3300020: Box008_Part_19
+    3300022: Box008_Part_2
+    3300024: Box008_Part_20
+    3300026: Box008_Part_21
+    3300028: Box008_Part_22
+    3300030: Box008_Part_23
+    3300032: Box008_Part_24
+    3300034: Box008_Part_25
+    3300036: Box008_Part_26
+    3300038: Box008_Part_27
+    3300040: Box008_Part_28
+    3300042: Box008_Part_29
+    3300044: Box008_Part_3
+    3300046: Box008_Part_30
+    3300048: Box008_Part_31
+    3300050: Box008_Part_32
+    3300052: Box008_Part_33
+    3300054: Box008_Part_34
+    3300056: Box008_Part_35
+    3300058: Box008_Part_36
+    3300060: Box008_Part_37
+    3300062: Box008_Part_38
+    3300064: Box008_Part_39
+    3300066: Box008_Part_4
+    3300068: Box008_Part_40
+    3300070: Box008_Part_5
+    3300072: Box008_Part_6
+    3300074: Box008_Part_7
+    3300076: Box008_Part_8
+    3300078: Box008_Part_9
+    4300000: Box008_Part_1
+    4300002: Box008_Part_2
+    4300004: Box008_Part_3
+    4300006: Box008_Part_4
+    4300008: Box008_Part_5
+    4300010: Box008_Part_6
+    4300012: Box008_Part_7
+    4300014: Box008_Part_8
+    4300016: Box008_Part_9
+    4300018: Box008_Part_10
+    4300020: Box008_Part_11
+    4300022: Box008_Part_12
+    4300024: Box008_Part_13
+    4300026: Box008_Part_14
+    4300028: Box008_Part_15
+    4300030: Box008_Part_16
+    4300032: Box008_Part_17
+    4300034: Box008_Part_18
+    4300036: Box008_Part_19
+    4300038: Box008_Part_20
+    4300040: Box008_Part_21
+    4300042: Box008_Part_22
+    4300044: Box008_Part_23
+    4300046: Box008_Part_24
+    4300048: Box008_Part_25
+    4300050: Box008_Part_26
+    4300052: Box008_Part_27
+    4300054: Box008_Part_28
+    4300056: Box008_Part_29
+    4300058: Box008_Part_30
+    4300060: Box008_Part_31
+    4300062: Box008_Part_32
+    4300064: Box008_Part_33
+    4300066: Box008_Part_34
+    4300068: Box008_Part_35
+    4300070: Box008_Part_36
+    4300072: Box008_Part_37
+    4300074: Box008_Part_38
+    4300076: Box008_Part_39
+    4300078: Box008_Part_40
+    7400000: DestroySatelite
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DestroySatelite
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9971347
+        functionName: SateliteDestruido
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 377112a5cad305142b27bb68db354bb7,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box008_Part_1
+        weight: 1
+      - path: Box008_Part_2
+        weight: 1
+      - path: Box008_Part_3
+        weight: 1
+      - path: Box008_Part_4
+        weight: 1
+      - path: Box008_Part_5
+        weight: 1
+      - path: Box008_Part_6
+        weight: 1
+      - path: Box008_Part_7
+        weight: 1
+      - path: Box008_Part_8
+        weight: 1
+      - path: Box008_Part_9
+        weight: 1
+      - path: Box008_Part_10
+        weight: 1
+      - path: Box008_Part_11
+        weight: 1
+      - path: Box008_Part_12
+        weight: 1
+      - path: Box008_Part_13
+        weight: 1
+      - path: Box008_Part_14
+        weight: 1
+      - path: Box008_Part_15
+        weight: 1
+      - path: Box008_Part_16
+        weight: 1
+      - path: Box008_Part_17
+        weight: 1
+      - path: Box008_Part_18
+        weight: 1
+      - path: Box008_Part_19
+        weight: 1
+      - path: Box008_Part_20
+        weight: 1
+      - path: Box008_Part_21
+        weight: 1
+      - path: Box008_Part_22
+        weight: 1
+      - path: Box008_Part_23
+        weight: 1
+      - path: Box008_Part_24
+        weight: 1
+      - path: Box008_Part_25
+        weight: 1
+      - path: Box008_Part_26
+        weight: 1
+      - path: Box008_Part_27
+        weight: 1
+      - path: Box008_Part_28
+        weight: 1
+      - path: Box008_Part_29
+        weight: 1
+      - path: Box008_Part_30
+        weight: 1
+      - path: Box008_Part_31
+        weight: 1
+      - path: Box008_Part_32
+        weight: 1
+      - path: Box008_Part_33
+        weight: 1
+      - path: Box008_Part_34
+        weight: 1
+      - path: Box008_Part_35
+        weight: 1
+      - path: Box008_Part_36
+        weight: 1
+      - path: Box008_Part_37
+        weight: 1
+      - path: Box008_Part_38
+        weight: 1
+      - path: Box008_Part_39
+        weight: 1
+      - path: Box008_Part_40
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

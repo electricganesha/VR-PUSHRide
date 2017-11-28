@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 4ebaa9f76ed29da469f1238ea37ea621
+timeCreated: 1485960641
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Astro_GEO
+    100002: Astro_GEO_GRP
+    100004: //RootNode
+    100006: l_Ankle_JNT
+    100008: l_arm_GRP
+    100010: l_armElbow_CTL
+    100012: l_armElbow_CTL 1
+    100014: l_armElbow_JNT
+    100016: l_armElbowOrient_GRP
+    100018: l_armElbowOrient_GRP1
+    100020: l_armShoulder_CTL
+    100022: l_armShoulder_JNT
+    100024: l_armShoulderOrient_GRP
+    100026: l_BallRoll_CTL
+    100028: l_BallRoll_JNT
+    100030: l_BallRollOrient_GRP
+    100032: l_Fingers_GRP
+    100034: l_FingersMid_CTL
+    100036: l_FingersMid_JNT
+    100038: l_FingersMidOrient_GRP
+    100040: l_FingersRoot_CTL
+    100042: l_FingersRoot_JNT
+    100044: l_FingersRootOrient_GRP
+    100046: l_Foot_GRP
+    100048: l_Hand_CTL
+    100050: l_Hand_GRP
+    100052: l_HandOrient_GRP
+    100054: l_Leg_GRP
+    100056: l_legFK_CTL
+    100058: l_legFKConstrain_GRP
+    100060: l_LegFKEnd_JNT
+    100062: l_LegFKMid_CTL
+    100064: l_LegFKMid_GRP
+    100066: l_LegFKMid_JNT
+    100068: l_LegFKRoot_CTL
+    100070: l_LegFKRoot_GRP
+    100072: l_LegFKRoot_JNT
+    100074: l_Palm_GRP
+    100076: l_Palm_JNT
+    100078: l_Thumb_GRp
+    100080: l_ThumbMid_JNT
+    100082: l_ThumbMidOrient_CTL
+    100084: l_ThumbMidOrient_GRP
+    100086: l_ThumbRoot_CTl
+    100088: l_ThumbRoot_JNT
+    100090: l_ThumbRootOrient_GRP
+    100092: l_ThumbTip_JNT
+    100094: l_ThumbTipOrient_CTL
+    100096: l_ThumbTipOrient_GRP
+    100098: l_Wrist_JNT
+    100100: m_Belly_CTL
+    100102: m_Belly_GRP
+    100104: m_Belly_JNT
+    100106: m_BellyOrient_GRP
+    100108: m_Head_CTL
+    100110: m_Head_GRP
+    100112: m_Head_GRP 1
+    100114: m_HeadExtra_CTL
+    100116: m_HeadExtraOrient_GRP
+    100118: m_headMid_JNT
+    100120: m_headRoot_JNT
+    100122: m_pelvis_CTL
+    100124: m_pelvis_GRP
+    100126: m_pelvis_JNT
+    100128: m_pelvisOrient_GRP
+    100130: m_spine01_CTL
+    100132: m_spine01_JNT
+    100134: m_spine02_CTL
+    100136: m_spine02_JNT
+    100138: m_spine02Orient_GRP1
+    100140: m_spine03_CTL
+    100142: m_spine03_JNT
+    100144: m_spine03Orient_GRP
+    100146: m_spine_GRP
+    100148: Master_CTL
+    100150: r_Ankle_JNT
+    100152: r_arm_GRP
+    100154: r_armElbow_JNT
+    100156: r_armShoulder_CTL
+    100158: r_armShoulder_GRP
+    100160: r_armShoulder_JNT
+    100162: r_BallRoll_CTL
+    100164: r_BallRoll_JNT
+    100166: r_BallRollOrient_GRP
+    100168: r_Fingers_GRP
+    100170: r_FingersMid_CTL
+    100172: r_FingersMid_JNT
+    100174: r_FingersMidOrient_GRP
+    100176: r_FingersRoot_CTL
+    100178: r_FingersRoot_JNT
+    100180: r_FingersRootOrient_GRP
+    100182: r_Foot_GRP
+    100184: r_Hand_GRP
+    100186: r_Leg_GRP
+    100188: r_legFK_CTL
+    100190: r_legFKConstrain_GRP
+    100192: r_LegFKEnd_JNT
+    100194: r_LegFKMid_CTL
+    100196: r_LegFKMid_GRP
+    100198: r_LegFKMid_JNT
+    100200: r_LegFKRoot_CTL
+    100202: r_LegFKRoot_GRP
+    100204: r_LegFKRoot_JNT
+    100206: r_Palm_GRP
+    100208: r_Palm_JNT
+    100210: r_Thumb_GRP
+    100212: r_ThumbMid_JNT
+    100214: r_ThumbMidOrient_CTL
+    100216: r_ThumbMidOrient_GRP
+    100218: r_ThumbRoot_CTl
+    100220: r_ThumbRoot_JNT
+    100222: r_ThumbRootOrient_GRP
+    100224: r_ThumbTip_JNT
+    100226: r_ThumbTipOrient_CTL
+    100228: r_ThumbTipOrient_GRP
+    100230: r_Wrist_CTL
+    100232: r_Wrist_GRP
+    100234: r_Wrist_JNT
+    100236: transform1
+    400000: Astro_GEO
+    400002: Astro_GEO_GRP
+    400004: //RootNode
+    400006: l_Ankle_JNT
+    400008: l_arm_GRP
+    400010: l_armElbow_CTL
+    400012: l_armElbow_CTL 1
+    400014: l_armElbow_JNT
+    400016: l_armElbowOrient_GRP
+    400018: l_armElbowOrient_GRP1
+    400020: l_armShoulder_CTL
+    400022: l_armShoulder_JNT
+    400024: l_armShoulderOrient_GRP
+    400026: l_BallRoll_CTL
+    400028: l_BallRoll_JNT
+    400030: l_BallRollOrient_GRP
+    400032: l_Fingers_GRP
+    400034: l_FingersMid_CTL
+    400036: l_FingersMid_JNT
+    400038: l_FingersMidOrient_GRP
+    400040: l_FingersRoot_CTL
+    400042: l_FingersRoot_JNT
+    400044: l_FingersRootOrient_GRP
+    400046: l_Foot_GRP
+    400048: l_Hand_CTL
+    400050: l_Hand_GRP
+    400052: l_HandOrient_GRP
+    400054: l_Leg_GRP
+    400056: l_legFK_CTL
+    400058: l_legFKConstrain_GRP
+    400060: l_LegFKEnd_JNT
+    400062: l_LegFKMid_CTL
+    400064: l_LegFKMid_GRP
+    400066: l_LegFKMid_JNT
+    400068: l_LegFKRoot_CTL
+    400070: l_LegFKRoot_GRP
+    400072: l_LegFKRoot_JNT
+    400074: l_Palm_GRP
+    400076: l_Palm_JNT
+    400078: l_Thumb_GRp
+    400080: l_ThumbMid_JNT
+    400082: l_ThumbMidOrient_CTL
+    400084: l_ThumbMidOrient_GRP
+    400086: l_ThumbRoot_CTl
+    400088: l_ThumbRoot_JNT
+    400090: l_ThumbRootOrient_GRP
+    400092: l_ThumbTip_JNT
+    400094: l_ThumbTipOrient_CTL
+    400096: l_ThumbTipOrient_GRP
+    400098: l_Wrist_JNT
+    400100: m_Belly_CTL
+    400102: m_Belly_GRP
+    400104: m_Belly_JNT
+    400106: m_BellyOrient_GRP
+    400108: m_Head_CTL
+    400110: m_Head_GRP
+    400112: m_Head_GRP 1
+    400114: m_HeadExtra_CTL
+    400116: m_HeadExtraOrient_GRP
+    400118: m_headMid_JNT
+    400120: m_headRoot_JNT
+    400122: m_pelvis_CTL
+    400124: m_pelvis_GRP
+    400126: m_pelvis_JNT
+    400128: m_pelvisOrient_GRP
+    400130: m_spine01_CTL
+    400132: m_spine01_JNT
+    400134: m_spine02_CTL
+    400136: m_spine02_JNT
+    400138: m_spine02Orient_GRP1
+    400140: m_spine03_CTL
+    400142: m_spine03_JNT
+    400144: m_spine03Orient_GRP
+    400146: m_spine_GRP
+    400148: Master_CTL
+    400150: r_Ankle_JNT
+    400152: r_arm_GRP
+    400154: r_armElbow_JNT
+    400156: r_armShoulder_CTL
+    400158: r_armShoulder_GRP
+    400160: r_armShoulder_JNT
+    400162: r_BallRoll_CTL
+    400164: r_BallRoll_JNT
+    400166: r_BallRollOrient_GRP
+    400168: r_Fingers_GRP
+    400170: r_FingersMid_CTL
+    400172: r_FingersMid_JNT
+    400174: r_FingersMidOrient_GRP
+    400176: r_FingersRoot_CTL
+    400178: r_FingersRoot_JNT
+    400180: r_FingersRootOrient_GRP
+    400182: r_Foot_GRP
+    400184: r_Hand_GRP
+    400186: r_Leg_GRP
+    400188: r_legFK_CTL
+    400190: r_legFKConstrain_GRP
+    400192: r_LegFKEnd_JNT
+    400194: r_LegFKMid_CTL
+    400196: r_LegFKMid_GRP
+    400198: r_LegFKMid_JNT
+    400200: r_LegFKRoot_CTL
+    400202: r_LegFKRoot_GRP
+    400204: r_LegFKRoot_JNT
+    400206: r_Palm_GRP
+    400208: r_Palm_JNT
+    400210: r_Thumb_GRP
+    400212: r_ThumbMid_JNT
+    400214: r_ThumbMidOrient_CTL
+    400216: r_ThumbMidOrient_GRP
+    400218: r_ThumbRoot_CTl
+    400220: r_ThumbRoot_JNT
+    400222: r_ThumbRootOrient_GRP
+    400224: r_ThumbTip_JNT
+    400226: r_ThumbTipOrient_CTL
+    400228: r_ThumbTipOrient_GRP
+    400230: r_Wrist_CTL
+    400232: r_Wrist_GRP
+    400234: r_Wrist_JNT
+    400236: transform1
+    4300000: Astro_GEO
+    7400000: IDLE
+    9500000: //RootNode
+    13700000: Astro_GEO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IDLE
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Astro_GEO_GRP
+        weight: 1
+      - path: Astro_GEO_GRP/Astro_GEO
+        weight: 1
+      - path: Master_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP/l_legFK_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP/l_legFK_CTL/l_Foot_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP/l_legFK_CTL/l_Foot_GRP/l_Ankle_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP/l_legFK_CTL/l_Foot_GRP/l_Ankle_JNT/l_BallRollOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP/l_legFK_CTL/l_Foot_GRP/l_Ankle_JNT/l_BallRollOrient_GRP/l_BallRoll_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/l_LegFKRoot_GRP/l_LegFKRoot_CTL/l_Leg_GRP/l_LegFKRoot_JNT/l_LegFKMid_GRP/l_LegFKMid_CTL/l_LegFKMid_JNT/l_LegFKEnd_JNT/l_legFKConstrain_GRP/l_legFK_CTL/l_Foot_GRP/l_Ankle_JNT/l_BallRollOrient_GRP/l_BallRoll_CTL/l_BallRoll_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_BellyOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_BellyOrient_GRP/m_Belly_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_BellyOrient_GRP/m_Belly_CTL/m_Belly_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_BellyOrient_GRP/m_Belly_CTL/m_Belly_GRP/m_Belly_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP/l_FingersRootOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP/l_FingersRootOrient_GRP/l_FingersRoot_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP/l_FingersRootOrient_GRP/l_FingersRoot_CTL/l_FingersRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP/l_FingersRootOrient_GRP/l_FingersRoot_CTL/l_FingersRoot_JNT/l_FingersMidOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP/l_FingersRootOrient_GRP/l_FingersRoot_CTL/l_FingersRoot_JNT/l_FingersMidOrient_GRP/l_FingersMid_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Fingers_GRP/l_FingersRootOrient_GRP/l_FingersRoot_CTL/l_FingersRoot_JNT/l_FingersMidOrient_GRP/l_FingersMid_CTL/l_FingersMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Palm_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Palm_GRP/l_Palm_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT/l_ThumbMidOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT/l_ThumbMidOrient_GRP/l_ThumbMidOrient_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT/l_ThumbMidOrient_GRP/l_ThumbMidOrient_CTL/l_ThumbMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT/l_ThumbMidOrient_GRP/l_ThumbMidOrient_CTL/l_ThumbMid_JNT/l_ThumbTipOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT/l_ThumbMidOrient_GRP/l_ThumbMidOrient_CTL/l_ThumbMid_JNT/l_ThumbTipOrient_GRP/l_ThumbTipOrient_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_HandOrient_GRP/l_Hand_CTL/l_Hand_GRP/l_Thumb_GRp/l_ThumbRootOrient_GRP/l_ThumbRoot_CTl/l_ThumbRoot_JNT/l_ThumbMidOrient_GRP/l_ThumbMidOrient_CTL/l_ThumbMid_JNT/l_ThumbTipOrient_GRP/l_ThumbTipOrient_CTL/l_ThumbTip_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/l_armShoulderOrient_GRP/l_armShoulder_CTL/l_arm_GRP/l_armShoulder_JNT/l_armElbowOrient_GRP/l_armElbow_CTL/l_armElbow_JNT/l_Wrist_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP/m_Head_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP/m_Head_CTL/m_Head_GRP
+          1
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP/m_Head_CTL/m_Head_GRP
+          1/m_headRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP/m_Head_CTL/m_Head_GRP
+          1/m_headRoot_JNT/m_HeadExtraOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP/m_Head_CTL/m_Head_GRP
+          1/m_headRoot_JNT/m_HeadExtraOrient_GRP/m_HeadExtra_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_Head_GRP/m_Head_CTL/m_Head_GRP
+          1/m_headRoot_JNT/m_HeadExtraOrient_GRP/m_HeadExtra_CTL/m_headMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/m_spine03_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP/r_FingersRootOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP/r_FingersRootOrient_GRP/r_FingersRoot_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP/r_FingersRootOrient_GRP/r_FingersRoot_CTL/r_FingersRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP/r_FingersRootOrient_GRP/r_FingersRoot_CTL/r_FingersRoot_JNT/r_FingersMidOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP/r_FingersRootOrient_GRP/r_FingersRoot_CTL/r_FingersRoot_JNT/r_FingersMidOrient_GRP/r_FingersMid_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Fingers_GRP/r_FingersRootOrient_GRP/r_FingersRoot_CTL/r_FingersRoot_JNT/r_FingersMidOrient_GRP/r_FingersMid_CTL/r_FingersMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Palm_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Palm_GRP/r_Palm_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT/r_ThumbMidOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT/r_ThumbMidOrient_GRP/r_ThumbMidOrient_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT/r_ThumbMidOrient_GRP/r_ThumbMidOrient_CTL/r_ThumbMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT/r_ThumbMidOrient_GRP/r_ThumbMidOrient_CTL/r_ThumbMid_JNT/r_ThumbTipOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT/r_ThumbMidOrient_GRP/r_ThumbMidOrient_CTL/r_ThumbMid_JNT/r_ThumbTipOrient_GRP/r_ThumbTipOrient_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/m_spine01_JNT/m_pelvisOrient_GRP/m_pelvis_CTL/m_pelvis_GRP/m_pelvis_JNT/m_spine02Orient_GRP1/m_spine02_CTL/m_spine02_JNT/m_spine03Orient_GRP/m_spine03_CTL/r_armShoulder_GRP/r_armShoulder_CTL/r_arm_GRP/r_armShoulder_JNT/l_armElbowOrient_GRP1/l_armElbow_CTL
+          1/r_armElbow_JNT/r_Wrist_GRP/r_Wrist_CTL/r_Wrist_JNT/r_Hand_GRP/r_Thumb_GRP/r_ThumbRootOrient_GRP/r_ThumbRoot_CTl/r_ThumbRoot_JNT/r_ThumbMidOrient_GRP/r_ThumbMidOrient_CTL/r_ThumbMid_JNT/r_ThumbTipOrient_GRP/r_ThumbTipOrient_CTL/r_ThumbTip_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP/r_legFK_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP/r_legFK_CTL/r_Foot_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP/r_legFK_CTL/r_Foot_GRP/r_Ankle_JNT
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP/r_legFK_CTL/r_Foot_GRP/r_Ankle_JNT/r_BallRollOrient_GRP
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP/r_legFK_CTL/r_Foot_GRP/r_Ankle_JNT/r_BallRollOrient_GRP/r_BallRoll_CTL
+        weight: 1
+      - path: Master_CTL/m_spine_GRP/m_spine01_CTL/r_LegFKRoot_GRP/r_LegFKRoot_CTL/r_Leg_GRP/r_LegFKRoot_JNT/r_LegFKMid_GRP/r_LegFKMid_CTL/transform1/r_LegFKMid_JNT/r_LegFKEnd_JNT/r_legFKConstrain_GRP/r_legFK_CTL/r_Foot_GRP/r_Ankle_JNT/r_BallRollOrient_GRP/r_BallRoll_CTL/r_BallRoll_JNT
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
