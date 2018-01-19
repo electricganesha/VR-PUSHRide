@@ -1,4 +1,4 @@
-# VR-PUSHRide
+# VR PUSH Ride
 
 ## Concept
 VR PUSH Ride is a simple VR Ride experience (similar to a Virtual Reality rollercoaster ride) that was developed at PUSHVFX with the
