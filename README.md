@@ -15,4 +15,5 @@ Ricardo Pinto -> C# Development
 Pedro Motta -> Art Direction
 
 ## Demo
+* [Project](https://pushvfx.com/projects/58c283bf7fe73c08b426e1b4) - project page
 * [Demo](https://pushvfx.com/projects/VRRide/index.html) - Try out a Unity WebGL version (without headset)
